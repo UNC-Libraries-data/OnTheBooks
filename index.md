@@ -14,7 +14,7 @@ From the University Libraries:
 * Lorin Bruckner, Text Analysis and Visualization Expert
 * Sarah Carrier, Content expert and Outreach
   
-From the Department of History
+From the Department of History:
 * William Sturkey, Disciplinary Scholar
 
 
