@@ -12,7 +12,7 @@ From the University Libraries:
 * Amanda Henley, Co-Principal Investigator and Project Sponsor
 * Matt Jansen, Text Analysis Expert and Statistician
 * Lorin Bruckner, Text Analysis and Visualization Expert
-* Sarah Carrier, Content expert and Outreach
+* Sarah Carrier, Content Expert and Outreach
   
 From the Department of History:
 * William Sturkey, Disciplinary Scholar
