@@ -19,5 +19,5 @@ From the Department of History:
 
 * *Graduate Student (TBD), Documentation and Content Developer*
 
-## Project Consultants 
-* Aaron S. Kirschenfeld, Consultant: North Carolina legal expert
+## Project Consultants and Collaborators
+* Aaron S. Kirschenfeld, North Carolina legal expert
