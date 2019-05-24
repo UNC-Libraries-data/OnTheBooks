@@ -21,17 +21,4 @@
 * __MacOS__: 
     * To install using MacPorts run the command: _sudo port install tesseract_ 
     * To install using Homebrew run the command: _brew install tesseract_  
-     
-### 4. Install IrfanView:  
-* Download installer from [Irfanview website](https://www.irfanview.com/) 
-* Go to Download 64 – bit version 
-* Click on the 64 bit Download link 
-* Run the setup file 
-* Select JP2/JPC/J2K extension 
-* Complete installation according to the steps  
- 
-### 5. Install Zotero: 
-* Go to the [Zotero website](https://www.zotero.org/) 
-* Click on Download 
-* Download the installer according to the platform 
-* Run the installer with default settings 
+      
