@@ -9,10 +9,12 @@ From the University Libraries:
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team
 * Amanda Henley, Co-Principal Investigator and Project Sponsor
 * Matt Jansen, Co-Principal Investigator and Text Analysis Expert and Statistician
-* Nathan Kelber, Senior Advisor
   
 From the Department of History:
 * William Sturkey, Disciplinary Scholar
+
+From JSTOR Labs:
+* Nathan Kelber, Senior Advisor
 
 ## Project Consultants and Collaborators
 * Daniel Anderson, Professor for Pilot Project: [NC Jim Crow Laws, 1899-1919](http://nc-jim-crow-laws.prospect.unc.edu/)
