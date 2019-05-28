@@ -8,8 +8,8 @@ From the University Libraries:
 * Rucha Dalwadi, Documentation and Content Developer (Research Assistant)
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team
 * Amanda Henley, Co-Principal Investigator and Project Sponsor
-* Matt Jansen, Text Analysis Expert and Statistician
-* Nathan Kelber, Principal Investigator and Project Lead
+* Matt Jansen, Co-Principal Investigator and Text Analysis Expert and Statistician
+* Nathan Kelber, Senior Advisor
   
 From the Department of History:
 * William Sturkey, Disciplinary Scholar
