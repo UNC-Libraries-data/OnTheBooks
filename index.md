@@ -7,8 +7,8 @@ From the University Libraries:
 * Sarah Carrier, Content Expert and Outreach
 * Rucha Dalwadi, Documentation and Content Developer (Research Assistant)
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team
-* Amanda Henley, Co-Principal Investigator and Project Sponsor
-* Matt Jansen, Co-Principal Investigator and Text Analysis Expert and Statistician
+* Amanda Henley, Co-Principal Investigator and Project Lead
+* Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician
   
 From the Department of History:
 * William Sturkey, Disciplinary Scholar
