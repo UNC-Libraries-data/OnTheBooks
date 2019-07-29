@@ -12,6 +12,7 @@
 * Present about the project to K-12 educators. 
  
  ![Mellon Logo](/images/mellon-foundation-logo.jpg) 
+
 The work of *On the Books: Jim Crow and Algorithms of Resistance* is funded by the [Andrew W. Mellon Foundation](https://mellon.org/). The project is a member of the first cohort for [Collections as Data: Part to Whole](https://collectionsasdata.github.io/part2whole/). 
 
  ![Pauli Murray](/images/Pauli_Murray.jpg) 
