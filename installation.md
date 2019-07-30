@@ -22,3 +22,10 @@
     * To install using MacPorts run the command: _sudo port install tesseract_ 
     * To install using Homebrew run the command: _brew install tesseract_  
       
+### 4. Install openjpeg
+* Open a conda terminal, and execute the following:
+
+      conda install openjpeg
+      pip install Pillow --force-reinstall
+
+* Pillow needs to be reinstalled after openjpeg is installed to correctly link to the jpeg2000 decoder.
