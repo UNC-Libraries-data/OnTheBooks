@@ -24,8 +24,9 @@
       
 ### 4. Install openjpeg
 * Open a conda terminal, and execute the following:
-
-      conda install openjpeg
-      pip install Pillow --force-reinstall
-
-* Pillow needs to be reinstalled after openjpeg is installed to correctly link to the jpeg2000 decoder.
+   + Note: Pillow needs to be reinstalled after openjpeg is installed to correctly link to the jpeg2000 decoder.
+```
+conda install openjpeg
+pip install Pillow --force-reinstall
+pip install pyspellchecker
+```
