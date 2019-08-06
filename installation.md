@@ -23,10 +23,21 @@
     * To install using Homebrew run the command: _brew install tesseract_  
       
 ### 4. Install Python packages
+* Optional:
+Use your conda terminal to create a new environment called "onthebooks":
+```
+conda create -n onthebooks python=3.7
+```
+Activate the environment with:
+```
+conda activate onthebooks
+```
+
 * Open a conda terminal, and execute the following:
    + Note: Pillow needs to be reinstalled after openjpeg is installed to correctly link to the jpeg2000 decoder.
 ```
 conda install openjpeg
 pip install Pillow --force-reinstall
 pip install pyspellchecker
+pip install pytesseract
 ```
