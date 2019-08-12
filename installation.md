@@ -1,5 +1,5 @@
 # Software Installation Documentation 
-### 1. Install the Windows Subsystem for Linux (Ubuntu):  
+### Optional: Install the Windows Subsystem for Linux (Ubuntu):  
 * To install Linux, first enable the Windows Subsystem for Linux optional feature by running the following command in Windows Powershell (Start --> Windows Powershell  --> Right click --> Run as Administrator):   
     * _Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux_   
 * Restart when prompted 
@@ -8,29 +8,32 @@
 * Click on the launch button 
 * Once Installation is complete, create a UNIX user and password 
      
-### 2. Install Anaconda Python: 
+### 1. Install Anaconda Python: 
 * Install Anaconda from [Anaconda website](https://www.anaconda.com/distribution/) 
 * Download latest Python version (64 Bit - Graphical Installer)  
 * Run the Anaconda setup file with default settings 
   
-### 3. Install Tesseract: 
+### 2. Install Tesseract: 
 * __Windows__: 
     * Install from [Github link](https://github.com/UB-Mannheim/tesseract/wiki) 
     * Click on tesseract-ocr-w64-setup-v4.1.0.20190314 (rc1) 
-    * Run the Setup file with default settings 
+    * Run the Setup file with default settings, noting the installation location
+    * Add the installation location to your PATH variable
 * __MacOS__: 
     * To install using MacPorts run the command: _sudo port install tesseract_ 
     * To install using Homebrew run the command: _brew install tesseract_  
       
-### 4. Install Python packages
+### 3. Install Python packages
 * Optional:
 Use your conda terminal to create a new environment called "onthebooks":
 ```
 conda create -n onthebooks python=3.7
 ```
-Activate the environment with:
+Activate the environment and reinstall basic dependencies with:
 ```
 conda activate onthebooks
+conda install pandas
+conda install spyder
 ```
 
 * Open a conda terminal, and execute the following:
