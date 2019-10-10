@@ -39,7 +39,6 @@ From the University Libraries:
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team 
 * Amanda Henley, Co-Principal Investigator and Project Lead  
 * Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician 
-* Kimber Thomoas 
 
 From UNC Department of History: 
 * William Sturkey, Disciplinary Scholar 
@@ -55,4 +54,4 @@ Additional Project Consultants and Collaborators:
 * Aaron S. Kirschenfeld, North Carolina Legal Information Expert 
 * Steve Segedy, Software Developer 
 * Ryan Shaw, Information Science Expert 
-
+* Kimber Thomas, African American Studies Scholar
