@@ -1,7 +1,7 @@
 ![University Libraries logo](/images/UniversityLibraries_logo_black_h75.png) 
 ### A Brief Summary 
  
-*On the Books: Jim Crow and Algorithms of Resistance* is a UNC University Libraries' text mining project with the goal of discovering Jim Crow and racially-based legislation signed into law in North Carolina between Reconstruction and the Civil Rights Movement (1865-1968). Here is what we are making: 
+*On the Books: Jim Crow and Algorithms of Resistance* is a text mining project of the [University of North Carolina at Chapel Hill Libraries] (https://library.unc.edu/) with the goal of discovering Jim Crow and racially-based legislation signed into law in North Carolina between Reconstruction and the Civil Rights Movement (1865-1968). Here is what we are making: 
  
  1. A publicly accessible, plain-text corpus of North Carolina Session Laws from 1865-1968 for general legal and historical research, and a list of racially-biased laws discovered. 
  2. A public git repository containing general scripts, open source software, and documentation for the benefit of future collections as data projects. 
@@ -14,7 +14,7 @@
  
  ![Mellon Logo](/images/mellon-foundation-logo.jpg) 
 
-The work of *On the Books: Jim Crow and Algorithms of Resistance* is funded by the [Andrew W. Mellon Foundation](https://mellon.org/). The project is a member of the first cohort for [Collections as Data: Part to Whole](https://collectionsasdata.github.io/part2whole/). 
+The work of *On the Books: Jim Crow and Algorithms of Resistance* is funded by the [Andrew W. Mellon Foundation](https://mellon.org/) as part of the first cohort for [Collections as Data: Part to Whole](https://collectionsasdata.github.io/part2whole/). 
 
  ![Pauli Murray](/images/Pauli_Murray.jpg) 
 
@@ -32,13 +32,14 @@ The work of *On the Books* honors Pauli Murray’s legacy, expanding on her work
  
 Marrying history, social justice, and cutting-edge digital research methods requires a diverse team. The project is heavily interdisciplinary, relying on experts in African American history, special collections, digital research, data analysis, and data visualization. Additionally, we find ourselves consulting with a growing number of specialists in areas including information science, legal information, optical character recognition, and text analysis.  
  
-From the UNC University Libraries: 
+From the University Libraries: 
 * Lorin Bruckner, Text Analysis and Visualization Expert 
 * Sarah Carrier, Content Expert and Outreach 
 * Rucha Dalwadi, Documentation and Content Developer (Research Assistant) 
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team 
 * Amanda Henley, Co-Principal Investigator and Project Lead  
 * Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician 
+* Kimber Thomoas, Senior Advisor
 
 From UNC Department of History: 
 * William Sturkey, Disciplinary Scholar 
@@ -50,6 +51,8 @@ Additional Project Consultants and Collaborators:
 * Daniel Anderson, Professor for Pilot Project: [NC Jim Crow Laws, 1899-1919](http://nc-jim-crow-laws.prospect.unc.edu/) 
 * Ryan Cordell, OCR Specialist and author of [A Research Agenda for Historical and Multilingual Optical Character Recognition](https://ocr.northeastern.edu/report/) 
 * Kristen Foote, Research Assistant and Lead for Pilot Project: [NC Jim Crow Laws, 1899-1919](http://nc-jim-crow-laws.prospect.unc.edu/) 
-* Aaron S. Kirschenfeld, North Carolina Legal Information Expert 
-* Ryan Shaw, Information Science Expert 
 * Anna Goslen, Metadata Librarian
+* Aaron S. Kirschenfeld, North Carolina Legal Information Expert 
+* Steve Segedy, Software Developer 
+* Ryan Shaw, Information Science Expert 
+
