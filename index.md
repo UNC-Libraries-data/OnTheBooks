@@ -39,7 +39,7 @@ From the University Libraries:
 * María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team 
 * Amanda Henley, Co-Principal Investigator and Project Lead  
 * Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician 
-* Kimber Thomoas, Senior Advisor
+* Kimber Thomoas 
 
 From UNC Department of History: 
 * William Sturkey, Disciplinary Scholar 
