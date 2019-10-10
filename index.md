@@ -1,3 +1,4 @@
+![University Libraries logo](/images/UniversityLibraries_logo_black_h75.png) 
 ### A Brief Summary 
  
 *On the Books: Jim Crow and Algorithms of Resistance* is a text mining project with the goal of discovering Jim Crow and racially-based legislation signed into law in North Carolina between Reconstruction and the Civil Rights Movement (1865-1968). Here is what we are making: 
