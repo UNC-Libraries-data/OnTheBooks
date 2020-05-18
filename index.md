@@ -30,23 +30,21 @@ The work of *On the Books* honors Pauli Murray’s legacy, expanding on her work
  
 ### The Team 
  
-Marrying history, social justice, and cutting-edge digital research methods requires a diverse team. The project is heavily interdisciplinary, relying on experts in African American history, special collections, digital research, data analysis, and data visualization. Additionally, we find ourselves consulting with a growing number of specialists in areas including information science, legal information, optical character recognition, and text analysis.  
- 
-From the University Libraries: 
-* Lorin Bruckner, Text Analysis and Visualization Expert 
-* Sarah Carrier, Content Expert and Outreach 
-* Rucha Dalwadi, Documentation and Content Developer (Research Assistant) 
-* María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team 
-* Amanda Henley, Co-Principal Investigator and Project Lead  
-* Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician 
+Marrying history, social justice, and cutting-edge digital research methods requires a diverse team. The project team is predominantly from the UNC University Libraries, but is heavily interdisciplinary and relies on experts in African American history, special collections, digital research, data analysis, and data visualization. Additionally, we find ourselves consulting with a growing number of specialists in areas including information science, legal information, optical character recognition, and text analysis.
 
-From UNC Department of History: 
-* William Sturkey, Disciplinary Scholar 
+**Project Team**
+* Lorin Bruckner, Text Analysis and Visualization Expert (UNC Libraries)
+* Neil Byers, Documentation and Content Developer (Research Assistant, UNC Libraries) 
+* Sarah Carrier, Content Expert and Outreach (UNC Libraries)
+* Rucha Dalwadi, Documentation and Content Developer (Research Assistant, UNC Libraries)
+* María R. Estorino, Executive Sponsor and Liaison to the Library Leadership Team (UNC Libraries)
+* Amanda Henley, Co-Principal Investigator and Project Lead (UNC Libraries)
+* Matt Jansen, Co-Principal Investigator, Text Analysis Expert, and Statistician (UNC Libraries)
+* Nathan Kelber, Senior Advisor (JSTOR Labs)
+* Kimber Thomas, African American Studies Scholar (UNC Libraries)
+* William Sturkey, Disciplinary Scholar (UNC Department of History)
  
-From JSTOR Labs: 
-* Nathan Kelber, Senior Advisor 
- 
-Additional Project Consultants and Collaborators: 
+**Additional Project Consultants and Collaborators:**
 * Daniel Anderson, Professor for Pilot Project: [NC Jim Crow Laws, 1899-1919](http://nc-jim-crow-laws.prospect.unc.edu/) 
 * Ryan Cordell, OCR Specialist and author of [A Research Agenda for Historical and Multilingual Optical Character Recognition](https://ocr.northeastern.edu/report/) 
 * Kristen Foote, Research Assistant and Lead for Pilot Project: [NC Jim Crow Laws, 1899-1919](http://nc-jim-crow-laws.prospect.unc.edu/) 
@@ -54,4 +52,9 @@ Additional Project Consultants and Collaborators:
 * Aaron S. Kirschenfeld, North Carolina Legal Information Expert 
 * Steve Segedy, Software Developer 
 * Ryan Shaw, Information Science Expert 
-* Kimber Thomas, African American Studies Scholar
+
+**Student Workers (UNC Libraries):**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Montana Eck, Julia Long, Ashley Mullikin, Siri Nallaparaju, Tim Oyeleke, and Jenna Patton
+
+
