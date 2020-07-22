@@ -1,12 +1,12 @@
 ![University Libraries logo](/images/UniversityLibraries_logo_black_h75.png)
 ### A Brief Summary
 
-*On the Books: Jim Crow and Algorithms of Resistance* is a text mining project of the [University of North Carolina at Chapel Hill Libraries](https://library.unc.edu/) with the goal of discovering Jim Crow and racially-based legislation signed into law in North Carolina between Reconstruction and the Civil Rights Movement (1865-1968). Here is what we are making:
+*On the Books: Jim Crow and Algorithms of Resistance* is a text mining project of the [University of North Carolina at Chapel Hill Libraries](https://library.unc.edu/) with the goal of discovering Jim Crow and racially-based legislation signed into law in North Carolina between Reconstruction and the Civil Rights Movement (1865-1967). Here is what we are making:
 
- 1. A publicly accessible, plain-text corpus of North Carolina Session Laws from 1865-1968 for general legal and historical research, and a list of racially-biased laws discovered.
+ 1. A publicly accessible, plain-text corpus of North Carolina Session Laws from 1865-1967 for general legal and historical research, and a list of racially-biased laws discovered.
  2. A public git repository containing general scripts, open source software, and documentation for the benefit of future collections as data projects.
  3. A short white paper describing our methods and workflows for accurate, large-scale OCR text conversion and text analysis for future teams seeking to create large-scale digital corpora and/or experiment with data-driven discovery.
- 4. A website for educators and researchers interested in Southern and African American History that lists and contextualizes North Carolina segregation laws we uncover from the Jim Crow era (1877- 1965).
+ 4. A website for educators and researchers interested in Southern and African American History that lists and contextualizes North Carolina segregation laws we uncover from the Jim Crow era (1865/66 - 1967).
 
  We will also be doing some outreach about the project, and plan to:  
 * Present about the project to local and national audiences.
