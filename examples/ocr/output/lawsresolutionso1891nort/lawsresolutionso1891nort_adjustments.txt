@@ -1,0 +1,8 @@
+IMAGE ADJUSTMENTS
+
+color: 0.75
+autocontrast: 4
+blur: False
+sharpen: False
+smooth: False
+xsmooth: False
