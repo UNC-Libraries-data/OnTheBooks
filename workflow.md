@@ -7,10 +7,10 @@ This page is meant to provide an overview of the workflow used to create the On 
 4. Optical Character Recognition (OCR)
 5. Section Splitting & Cleaning
 6. Analysis
-7. Publication Preparation
+7. XML Generation
 
 ## Data Acquisition
-During data acquisition, images and metadata were gathered through a combination of automatic downloads from the Internet Archive and manual metadata creation and image selection.
+During data acquisition, images and metadata were gathered through a combination of automatic downloads from the Internet Archive and manual metadata creation.
 
 First, digitized versions of the volumes from the Internet Archive were identified using the Internet Archive's advanced search interface. Using the metadata that resulted from this search, all images comprising the corpus were downloaded using [jp2_download.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/data_acquisition/jp2_download.py). Extraneous page images, such as blank pages or those containing tables of contents, were manually identified and deleted.
 
@@ -76,8 +76,8 @@ Latent Dirichlet Allocation, an unsupervised method, was used to build a topic m
 
 Following the unsupervised classification efforts, an effort was made to identify Jim Crow laws using "active" supervised classification. A training set was compiled by expert reviewers doing close reading. A combination of preliminary classification runs and expert review was used to expand the existing labeled training set. The resulting expanded training set was used to perform classification on the entire corpus. This allowed for the labeling of laws as "Jim Crow" or "not Jim Crow" based on a pre-determined probability threshold.
 
-## Publication Preparation
-Following the analysis phase, the corpus was prepared for publication and hosting in the [Carolina Digital Repository](https://cdr.lib.unc.edu/). Each volume was enriched with metadata as XML. Metadata files were merged using a unique identifier, then added to the corpus as XML elements and attributes. Python's [ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) API was used to generate the XML. A .xsd schema was then created that defines the information provided about each volume in the corpus, such as the volume title, year, and session name. The schema also provides information about the laws contained in each volume, such as law titles, types, and Jim Crow classifications.
+## XML Generation
+Following the analysis phase, the corpus was prepared for dissemination from the [Carolina Digital Repository](https://doi.org/10.17615/5c4g-sd44). Each volume was enriched with metadata as XML. Metadata files were merged using a unique identifier, then added to the corpus as XML elements and attributes. Python's [ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) API was used to generate the XML. A .xsd schema was then created that defines the information provided about each volume in the corpus, such as the volume title, year, and session name. The schema also provides information about the laws contained in each volume, such as law titles, types, and Jim Crow classifications.
 
 **Output File(s):**
 * *onthebooks.xsd* - the xml schema definition for all xml files in the corpus.
