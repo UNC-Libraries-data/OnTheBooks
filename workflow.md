@@ -63,7 +63,7 @@ This step was accomplished using the 7 separate scripts located [here](https://g
 
 **Output File(s):**
 * *(volume)_(section)_data.csv* - An updated version of the 'raw' output .tsv files created in the OCR stage. One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
-* *(volume)_(section)_aggregate_data* - Contains all volume text aggregated into sections (laws). One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
+* *(volume)_(section)_aggregate_data.csv* - Contains all volume text aggregated into sections (laws). One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
 
 ## Analysis
 The analysis phase of the project involved both supervised and unsupervised learning methods. The purposes of this phase were twofold:
