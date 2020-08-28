@@ -44,7 +44,7 @@ Once the marginalia cropping information had been compiled, various image adjust
 This step was accomplished using [adjRec.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/adjRec.py) in concert with [ocr_func.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/ocr_func.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/adjustment_recommendation/adjRec.ipynb).
 
 **Output File(s):**
-* *adjustments.csv* - a .csv file containing OCR-optimized image adjustment parameter values for each volume
+* *adjustments.csv* - .csv file containing OCR-optimized image adjustment parameter values for each volume
 
 ## Optical Character Recognition (OCR)
 Having produced the prerequisite files ("adjustments.csv", "marginalia_metadata.csv", and "xmljpegmerge.csv"), OCR was performed on each page of each volume to produce a series of output files. OCR output files were saved for each law type (public, private, public-local) and session (e.g. Private Laws of the State of North Carolina, Session 1891 saved as lawsresolutionso1891nort_private laws_data.tsv).
@@ -62,8 +62,8 @@ After completing OCR, each volume was 'split' into its constituent chapters and 
 This step was accomplished using the 7 separate scripts located [here](https://github.com/UNC-Libraries-data/OnTheBooks/tree/master/code/split_cleanup) in combination with several rounds of manual review. Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/split_cleanup/split_cleanup.ipynb).
 
 **Output File(s):**
-* *(volume)_(section)_data.csv* - An updated version of the 'raw' output .tsv files created in the OCR step. One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
-* *(volume)_(section)_aggregate_data.csv* - Contains all volume text aggregated into sections (laws). One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
+* *(volume)_(section)_data.csv* - an updated version of the 'raw' output .tsv files created in the OCR step. One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
+* *(volume)_(section)_aggregate_data.csv* - contains all volume text aggregated into sections (laws). One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
 
 ## Analysis
 The analysis phase of the project involved both supervised and unsupervised learning methods. The purposes of this phase were twofold:
@@ -75,6 +75,12 @@ This phase utilized the aggregated versions of the laws, compiled during the pre
 Latent Dirichlet Allocation, an unsupervised method, was used to build a topic model for the laws. This analysis was conducted by team member Rucha Dalwadi and is detailed in her master’s paper ([Dalwadi 2020](https://doi.org/10.17615/tksc-t217)).
 
 Following the unsupervised classification efforts, an effort was made to identify Jim Crow laws using "active" supervised classification. A training set was compiled by expert reviewers doing close reading. A combination of preliminary classification runs and expert review was used to expand the existing labeled training set. The resulting expanded training set was used to perform classification on the entire corpus. This allowed for the labeling of laws as "Jim Crow" or "not Jim Crow" based on a pre-determined probability threshold.
+
+This step was accomplished using [scikit learn](https://scikit-learn.org/) and [XGBoost](https://xgboost.readthedocs.io/) to build and evaluate models. For text processing, [nltk](https://www.nltk.org/) was used.
+
+**Output File(s):**
+* *jim_crow_list.csv* - contains all laws identified as Jim Crow laws by expert reviewers, analytical models, or both.
+* *law_list.csv* - contains all laws in the corpus with all metadata accumulated from previous steps along with each law's Jim Crow classification value and classification source (experts, models, or both).
 
 ## XML Generation
 Following the analysis phase, the corpus was prepared for dissemination from the [Carolina Digital Repository](https://doi.org/10.17615/5c4g-sd44). Each volume was enriched with metadata as XML. Metadata files were merged using a unique identifier, then added to the corpus as XML elements and attributes. Python's [ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) API was used to generate the XML. A .xsd schema was then created that defines the information provided about each volume in the corpus, such as the volume title, year, and session name. The schema also provides information about the laws contained in each volume, such as law titles, types, and Jim Crow classifications.
