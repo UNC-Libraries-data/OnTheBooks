@@ -8,4 +8,4 @@ On the Books: Jim Crow and Algorithms of Resistance is a [collections as data pr
 
 ## [Workflow (code and examples)](workflow.md)
 
-## Data (forthcoming)
+## [Text Corpora](https://doi.org/10.17615/5c4g-sd44)
