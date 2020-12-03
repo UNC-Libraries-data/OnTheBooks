@@ -31,7 +31,7 @@ import os
 import csv
 import time
 
-os.chdir(r"C:\Users\rdalwadi\Documents\lawpdfs")
+os.chdir(r"")# The Directory where you want the pdfs to be downloaded in like C:\Users\onthebooks\Documents\lawpdfs
 
 # Open the file with identifiers for parsing
 with open("search.csv","r") as identifiers:
