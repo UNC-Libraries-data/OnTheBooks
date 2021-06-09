@@ -1,0 +1,15 @@
+name: oer-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - internetarchive
+    - matplotlib
+    - nltk
+    - pandas
+    - pillow
+    - pyspellchecker
+    - pytesseract
+    - requests
