@@ -2,7 +2,7 @@
 
 Ready to get started? Click the Launch Binder icon below to open the first module. *If you are opening Binder for the first time, please allow several minutes for it to load. It needs that time to set up your work environment.*
 
-[![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
 
 **Welcome!** Created by the *[On The Books](https://onthebooks.lib.unc.edu/)* team, these modules have been designed to introduce historians and programmers alike to the kinds of critical computational concepts and skills that can be applied in historical research.
 
@@ -52,7 +52,7 @@ The modules in this open educational resource have been ordered based on text an
 - an overview of the modules' platform Jupyter Notebooks;
 - and how to access the modules using Github and Binder *or* Anaconda.
 
-### 01. What is an algorithm? [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/01-AlgorithmsOfResistance-WhatIsAnAlgorithm.ipynb)
+### 01. What is an algorithm? [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/01-AlgorithmsOfResistance-WhatIsAnAlgorithm.ipynb)
 
 *15-30 minutes*
 
