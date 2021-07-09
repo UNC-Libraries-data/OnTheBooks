@@ -9,3 +9,5 @@
 ## [Workflow (code and examples)](workflow.md)
 
 ## [Text Corpora](https://doi.org/10.17615/5c4g-sd44)
+
+## [Open Educational Resource](oer/README.md)
