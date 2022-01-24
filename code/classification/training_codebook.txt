@@ -1,0 +1,9 @@
+id:            Standardized identifier for each law consisting of: year, law type, chapter_num and section_num
+source:        Source of Jim Crow law assessment (Pauli Murray, Richard Paschal, or project experts - William Sturkey or Kimber Thomas)
+jim_crow:      Indicator of Jim Crow (1) or not Jim Crow (0)
+type:          Type of law
+chapter_num:   Chapter number as integer, generated from OCR and data cleaning
+section_num:   Section number as integer, generated from OCR and data cleaning
+chapter_text:  The text of the title and any introduction before the first section of the law
+section_text:  The text of the specificed section
+extrinsic:     Supplemental data only. This field indicates whether the Jim Crow assessment was extrinsic (1), based almost completely on information outside the text of the law, or implicitly (0) Jim Crow.
