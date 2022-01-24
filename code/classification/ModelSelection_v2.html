@@ -13982,17 +13982,18 @@ a.anchor-link {
 <span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
 <span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
 <span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">WordNetLemmatizer</span>
-<span class="kn">from</span> <span class="nn">sklearn.base</span> <span class="kn">import</span> <span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">TransformerMixin</span>
+
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span><span class="p">,</span> <span class="n">TfidfTransformer</span>
 
 <span class="c1"># Machine Learning Libraries</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span><span class="p">,</span> <span class="n">FeatureUnion</span>
+<span class="kn">from</span> <span class="nn">sklearn.base</span> <span class="kn">import</span> <span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">TransformerMixin</span>
 <span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
 <span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">MultinomialNB</span>
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">SGDClassifier</span>
 <span class="kn">from</span> <span class="nn">xgboost</span> <span class="kn">import</span> <span class="n">XGBClassifier</span>
-<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span><span class="p">,</span> <span class="n">FeatureUnion</span>
-<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span><span class="p">,</span> <span class="n">TfidfTransformer</span>
 
-<span class="c1">#Model Tuning Libraries</span>
+ <span class="c1">#Model Tuning Libraries</span>
 <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span><span class="p">,</span> <span class="n">GridSearchCV</span><span class="p">,</span> <span class="n">cross_val_score</span>
 
 <span class="c1">#Evaluation Libraries</span>
@@ -14000,7 +14001,7 @@ a.anchor-link {
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">classification_report</span>
 
-<span class="c1">#Supress </span>
+<span class="c1">#Supression</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
@@ -14139,7 +14140,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Cross-Validation">Cross Validation<a class="anchor-link" href="#Cross-Validation">&#182;</a></h2><p>Candidate models performance was compared using grid search cross validation, measured using F1 scores.  Parameters passed to the param_grid below change the behavior of the underlying estimators and the preprocessing defined in the Pipeline above.</p>
+<h2 id="Cross-Validation">Cross Validation<a class="anchor-link" href="#Cross-Validation">&#182;</a></h2><p>Candidate models' performance was compared using grid search cross validation, measured using F1 scores.  Parameters passed to the param_grid below change the behavior of the underlying estimators and the preprocessing defined in the Pipeline above.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14443,7 +14444,7 @@ F1 0.9369 params {&#39;dlf__colsample_bytree&#39;: 0.36090203237009166, &#39;dlf
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The final results were based up on the following paramters, selected in a larger search:</p>
+<p>The final results were based on the following parameters, selected in a larger search:</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
