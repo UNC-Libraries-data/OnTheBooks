@@ -12,9 +12,9 @@ This page is meant to provide an overview of the workflow used to create the On 
 ## Data Acquisition
 During data acquisition, images and metadata were gathered through a combination of automatic downloads from the Internet Archive and manual metadata creation.
 
-First, digitized versions of the volumes from the Internet Archive were identified using the Internet Archive's advanced search interface. Using the metadata that resulted from this search, all images comprising the corpus were downloaded using [jp2_download.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/data_acquisition/jp2_download.py). Extraneous page images, such as blank pages or those containing tables of contents, were manually identified and deleted.
+First, digitized versions of the volumes from the Internet Archive were identified using the Internet Archive's advanced search interface. Using the metadata that resulted from this search, all images comprising the corpus were downloaded using [jp2_download.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/data_acquisition/jp2_download.py). Extraneous page images, such as blank pages or those containing tables of contents, were manually identified and deleted.
 
-Next, metadata such as law type (private laws, public laws, etc.) and original print page number were manually compiled for corpus images. These metadata were combined with other page-level metadata such as the leaf number (pdf page number) and page hand side (left or right), gathered from Internet Archive XML files using [xml_parser.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/data_acquisition/xml_parser.py).
+Next, metadata such as law type (private laws, public laws, etc.) and original print page number were manually compiled for corpus images. These metadata were combined with other page-level metadata such as the leaf number (pdf page number) and page hand side (left or right), gathered from Internet Archive XML files using [xml_parser.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/data_acquisition/xml_parser.py).
 
 The products of this stage consisted of a curated set of all relevant image files as well as page-level metadata for all images in the corpus:
 * file name
@@ -33,7 +33,7 @@ These items were compiled into a corpus-level document called 'xmljpegmerge.csv'
 ## Marginalia Determination
 Marginalia, which is text that serves as a finding aid, was printed in the corpus volumes prior to 1951. The marginalia are not part of the laws and needed to be left out of the OCR process, as did paratextual information from page headers and footers. The marginalia determination process involved identifying the coordinates of the main text body for OCR. The marginalia determination process also identified the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page. Tesseract OCR performs best when the text is not too close to the edge of the page.
 
-This step was accomplished using [marginalia_determination.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/marginalia/marginalia_determination.py) in concert with [cropfunctions.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/marginalia/cropfunctions.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/marginalia_determination/marginalia_determination.ipynb).
+This step was accomplished using [marginalia_determination.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/marginalia/marginalia_determination.py) in concert with [cropfunctions.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/marginalia/cropfunctions.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/examples/marginalia_determination/marginalia_determination.ipynb).
 
 **Output File(s):**
 * *marginalia_metadata.csv* - .csv file containing main body text boundary coordinates and background color information for each page in the corpus
@@ -41,7 +41,7 @@ This step was accomplished using [marginalia_determination.py](https://github.co
 ## Image Adjustment Recommendations
 Once the marginalia cropping information had been compiled, various image adjustments were tested for each volume to maximize OCR performance. A sample of images for each volume was selected and tested using different values for a range of parameters (color, contrast, etc.). Once the optimal image adjustments for each volume had been determined, these were stored for use during the following OCR stage.
 
-This step was accomplished using [adjRec.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/adjRec.py) in concert with [ocr_func.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/ocr_func.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/adjustment_recommendation/adjRec.ipynb).
+This step was accomplished using [adjRec.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/ocr/adjRec.py) in concert with [ocr_func.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/ocr/ocr_func.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/examples/adjustment_recommendation/adjRec.ipynb).
 
 **Output File(s):**
 * *adjustments.csv* - .csv file containing OCR-optimized image adjustment parameter values for each volume
@@ -49,7 +49,7 @@ This step was accomplished using [adjRec.py](https://github.com/UNC-Libraries-da
 ## Optical Character Recognition (OCR)
 Having produced the prerequisite files ("adjustments.csv", "marginalia_metadata.csv", and "xmljpegmerge.csv"), OCR was performed on each page of each volume to produce a series of output files. OCR output files were saved for each law type (public, private, public-local) and session (e.g. Private Laws of the State of North Carolina, Session 1891 saved as lawsresolutionso1891nort_private laws_data.tsv).
 
-This step was accomplished using [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki), which was accessed programmatically via a [pytesseract](https://pypi.org/project/pytesseract/) wrapper. The scripts involved in this stage were [ocr_use.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/ocr_use.py) and those functions contained in [ocr_func.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/code/ocr/ocr_func.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/ocr/ocr_use.ipynb).
+This step was accomplished using [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki), which was accessed programmatically via a [pytesseract](https://pypi.org/project/pytesseract/) wrapper. The scripts involved in this stage were [ocr_use.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/ocr/ocr_use.py) and those functions contained in [ocr_func.py](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/code/ocr/ocr_func.py). Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/examples/ocr/ocr_use.ipynb).
 
 **Output File(s):**
 * *(volume)_adjustments.txt* - stores the image adjustments used to perform OCR on that particular volume. One of these files was created for each physical volume.
@@ -59,7 +59,7 @@ This step was accomplished using [Tesseract OCR](https://github.com/UB-Mannheim/
 ## Section Splitting & Cleaning
 After completing OCR, each volume was 'split' into its constituent chapters and sections, with each section representing an individual law. This was accomplished using regular expression pattern matching on the word-level "(volume)_(section)_data.tsv" files produced in the previous step. Once initial assignments had been made, the corpus underwent a lengthy cleaning process that eliminated most section and chapter assignment errors and created a set of "aggregate" files in which all words were aggregated into their assigned sections (laws).
 
-This step was accomplished using the 7 separate scripts located [here](https://github.com/UNC-Libraries-data/OnTheBooks/tree/master/code/split_cleanup) in combination with several rounds of manual review. Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/master/examples/split_cleanup/split_cleanup.ipynb).
+This step was accomplished using the 7 separate scripts located [here](https://github.com/UNC-Libraries-data/OnTheBooks/tree/main/code/split_cleanup) in combination with several rounds of manual review. Detailed documentation for this step can be found [here](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/examples/split_cleanup/split_cleanup.ipynb).
 
 **Output File(s):**
 * *(volume)_(section)_data.csv* - an updated version of the 'raw' output .tsv files created in the OCR step. One of these files was created for each set of laws found ("Public", "Private", etc.) in each physical volume.
