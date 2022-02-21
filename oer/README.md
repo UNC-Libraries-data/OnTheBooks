@@ -2,7 +2,7 @@
 
 Ready to get started? Click the Launch Binder icon below to open the first module. *If you are opening Binder for the first time, please allow several minutes for it to load. It needs that time to set up your work environment.*
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/main?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
 
 **Welcome!** Created by the *[On The Books](https://onthebooks.lib.unc.edu/)* team, these modules have been designed to introduce historians and programmers alike to the kinds of critical computational concepts and skills that can be applied in historical research.
 
@@ -36,13 +36,13 @@ The Jupyter Notebooks that make up this collection of modules are hosted online 
 
 **If you are familiar with Jupyter Notebooks,** click the Launch Binder icon at the top of this page or below to get started:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
 
 ## The modules
 
 The modules in this open educational resource have been ordered based on text analysis workflows (from gathering data to data structuring to exploratory analysis), but feel free to choose which modules you'd like to work through. If it's helpful, you can keep this tab open or bookmarked in your browser so that you can use this list to navigate through each notebook.
 
-### 00. Introduction - Algorithms of Resistance: An Open Educational Resource [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
+### 00. Introduction - Algorithms of Resistance: An Open Educational Resource [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
 
 
 *15-30 minutes*
