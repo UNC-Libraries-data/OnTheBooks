@@ -104,34 +104,32 @@ The modules in this open educational resource have been ordered based on text an
 
 Follow these instructions if you have **relatively stable internet access**, are working on a laptop or desktop computer, and/or want to be able to save and access these files from multiple computers. *Note that these modules may work on a tablet, but they have not been tested.*
 
-1. From the [*On The Books* website](https://onthebooks.lib.unc.edu/), click the Launch Binder button to open this first module in your browser:
+1. Click the Launch Binder button to open this first module in your browser:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/master?filepath=oer/00-Introduction-AlgorithmsOfResistance.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
 
-2. OR from the [*On The Books* Github repository](https://github.com/UNC-Libraries-data/OnTheBooks), click the Launch Binder button next to any of the modules listed above to get started.
-
-3. From either steps 1 or 2, you'll be sent to Binder where you'll see a loading page that looks like this:
+2. You'll be sent to Binder where you'll see a loading page that looks like this:
 
 <img src="images/00-intro-01.jpeg" width="70%" style="padding-top:20px; box-shadow: 25px 25px 20px -30px rgba(0, 0, 0);" alt="Screen capture showing Binder loading a new Jupyter Notebook." title="Screen capture showing Binder loading a new Jupyter Notebook.">
 
 <br/>
 
-4. The first time you open this page in Binder, it may take a moment to load.
+3. The first time you open this page in Binder, it may take a moment to load.
 
 
-5. When the Jupyter Notebook loads, you'll be in an environment that looks like this:
+4. When the Jupyter Notebook loads, you'll be in an environment that looks like this:
 
 <img src="images/00-intro-02.jpg" width="70%" style="padding-top:20px; box-shadow: 25px 25px 20px -30px rgba(0, 0, 0);" alt="Screen capture of the first Jupyter Notebook in this module series." title="Screen capture of the first Jupyter Notebook in this module series.">
 
 <br/>
 
-6. **Save the URL to this page** by clicking the Binder button in the Jupyter Notebooks menu so you can return to it later.
+5. **Save the URL to this page** by clicking the Binder button in the Jupyter Notebooks menu so you can return to it later.
 
 <img src="images/00-intro025.png" width="10%" style="padding-top:20px; box-shadow: 25px 25px 20px -30px rgba(0, 0, 0);" alt="Screen capture of the Binder link icon in the Jupyter Notebooks menu." title="Screen capture of the Binder link icon in the Jupyter Notebooks menu.">
 
 <br/>
 
-7. You're ready to get started. Begin from the top of the page and read down through the module. You'll learn what you need to use the notebooks as you go.
+6. You're ready to get started. Begin from the top of the page and read down through the module. You'll learn what you need to use the notebooks as you go.
 
 ## Access these modules on your local desktop:
 
@@ -240,6 +238,8 @@ If you want to learn more about Jupyter Notebooks before starting these modules,
 - **In-Depth Tutorial (1 hour):** ["Introduction to Jupyter Notebooks"](https://programminghistorian.org/en/lessons/jupyter-notebooks) by Quinn Dombrowski, Tassie Gniady, and David Kloster for The Programming Historian (2020).
 
 ## License
+
+These modulesare licensed under the [GNU General Public License v3.0](https://github.com/UNC-Libraries-data/OnTheBooks/blob/main/LICENSE). Individual images and data files associated with each module may be subject to a different license. If so, we indicate this in the module text.
 
 ## Acknowledgments
 
