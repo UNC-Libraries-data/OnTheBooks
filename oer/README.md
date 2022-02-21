@@ -42,7 +42,7 @@ The Jupyter Notebooks that make up this collection of modules are hosted online 
 
 The modules in this open educational resource have been ordered based on text analysis workflows (from gathering data to data structuring to exploratory analysis), but feel free to choose which modules you'd like to work through. If it's helpful, you can keep this tab open or bookmarked in your browser so that you can use this list to navigate through each notebook.
 
-### 00. Introduction - Algorithms of Resistance: An Open Educational Resource [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
+### 00. Introduction - Algorithms of Resistance: An Open Educational Resource [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F00-Introduction-AlgorithmsOfResistance.ipynb)
 
 
 *15-30 minutes*
@@ -60,7 +60,7 @@ The modules in this open educational resource have been ordered based on text an
 - discussion of the term "algorithms of resistance;"
 - and a look at how algorithms are used for OCR and exploratory analysis.
 
-### 02. Gathering a Corpus [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F02-GatheringACorpus.ipynb)
+### 02. Gathering a Corpus [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F02-GatheringACorpus.ipynb)
 
 *30-60 minutes*
 
@@ -69,7 +69,7 @@ The modules in this open educational resource have been ordered based on text an
 - an overview of corpus data structures and file formats;
 - and two ways to gather a corpus from the Internet Archive.
 
-### 03. Making a Corpus Computer Readable; or What is OCR? [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F03-WhatIsOCR.ipynb)
+### 03. Making a Corpus Computer Readable; or What is OCR? [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F03-WhatIsOCR.ipynb)
 
 *30-45 minutes*
 
@@ -77,7 +77,7 @@ The modules in this open educational resource have been ordered based on text an
 - a list of questions to consider when preparing a corpus for OCR;
 - and an overview of OCR tools and platforms.
 
-### 04. How To OCR with Python & Tesseract: The Basics [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F04-HowToOCR.ipynb)
+### 04. How To OCR with Python & Tesseract: The Basics [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F04-HowToOCR.ipynb)
 
 *1-2 hours*
 
@@ -85,7 +85,7 @@ The modules in this open educational resource have been ordered based on text an
 - how to pre-process texts for OCR;
 - how to perform OCR using Python and Tesseract.
 
-### 05. Structuring OCR'ed Text as Data [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F05-StructuringOCRData.ipynb)
+### 05. Structuring OCR'ed Text as Data [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F05-StructuringOCRData.ipynb)
 
 
 *60-90 minutes*
@@ -93,7 +93,7 @@ The modules in this open educational resource have been ordered based on text an
 - How to identify and address errors in OCR'ed text;
 - how to structure OCR'ed text as data.
 
-### 06. Exploring Structured Data from OCR'ed Text [![Binder](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F06-ExploratoryAnalysis.ipynb)
+### 06. Exploring Structured Data from OCR'ed Text [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UNC-Libraries-data/OnTheBooks/2938a131ab1818e0aa391e8d9775b032adb20431?urlpath=lab%2Ftree%2Foer%2F06-ExploratoryAnalysis.ipynb)
 
 *1.5-2.5 hours*
 
