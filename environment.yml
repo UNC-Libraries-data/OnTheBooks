@@ -3,6 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - tesseract
+  - pytesseract
   - pip
   - pip:
     - geopandas
@@ -14,5 +16,3 @@ dependencies:
     - pyspellchecker
     - pytesseract
     - requests
-  - tesseract
-  - pytesseract
