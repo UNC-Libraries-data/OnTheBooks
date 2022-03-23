@@ -14,3 +14,4 @@ dependencies:
     - pyspellchecker
     - pytesseract
     - requests
+  - pytesseract
