@@ -18,5 +18,4 @@ dependencies:
     - pandas
     - pillow
     - pyspellchecker
-    - pytesseract
     - requests
