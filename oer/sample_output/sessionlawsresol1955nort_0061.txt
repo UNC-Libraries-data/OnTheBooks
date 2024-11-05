@@ -47,7 +47,7 @@ notice of the sale shall be published once a week for two successive weeks
 in a newspaper of general circulation in the county. After any such public
 sale, the board of county commissioners is authorized to reject any bid
 which in the opinion of the board is not considered to be the fair market
-value of the partial or entire tract of land offered. If, after public auction,
+value of the partial or entire tract of land offered. If, after publie auction,
 the board of county commissioners rejects the highest bid made, further
 public auctions may be held or the partial or entire tract of land may be
 sold privately for a higher price.
@@ -58,4 +58,3 @@ employ an auction company to assist with subdividing and selling the
 property involved but shall not pay any company so employed more than
 
 5
-

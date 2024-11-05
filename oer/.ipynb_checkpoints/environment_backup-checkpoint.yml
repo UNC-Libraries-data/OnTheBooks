@@ -1,0 +1,22 @@
+# This file is a duplicate of the environment.yml file
+# stored in the root of the On The Books Github repository.
+# If you only need the oer folder in the repository,
+# copy its contents to a new Github repository and rename
+# this file to environment.yml so that Binder will pull your
+# dependencies from this file.
+name: oer-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - geopandas
+    - internetarchive
+    - matplotlib
+    - nltk
+    - pandas
+    - pillow
+    - pyspellchecker
+    - pytesseract
+    - requests
